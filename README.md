@@ -1,5 +1,7 @@
 # Graphite with Docker
 
+**Note:** this docker image is modified from the original at [creative-area/docker-graphite](https://github.com/creative-area/docker-graphite) and allows CORS from any host for [Grafana](http://grafana.org/).
+
 > This image is intended to provide a ready to use Graphite stack (Graphite-web + Carbon + Whisper).
 
 The stack is built from source and managed by Supervisor.
